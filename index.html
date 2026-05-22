@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Saathvik Varma Mandapati</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">SV<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-text">SAATHVIK</div>
+    <div class="hero-content">
+      <div class="hero-tag"><span class="mono">01 /</span> Hello, world</div>
+      <h1 class="hero-name">Saathvik<br><span class="accent">Varma</span><br>Mandapati</h1>
+      <p class="hero-sub">CS Engineering student · AI/ML Researcher · Full-Stack Developer</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="mailto:saathvik2005@gmail.com" class="btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span class="mono">scroll down</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label"><span class="mono">02 /</span> About</div>
+    <div class="about-grid">
+      <div class="about-photo-wrap">
+        <div class="photo-frame">
+          <img src="photo.jpg" alt="Saathvik Varma" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="photo-placeholder">SV</div>
+        </div>
+        <div class="about-socials">
+          <a href="https://www.linkedin.com/in/saathvik-varma-942064319/" target="_blank" class="social-chip">LinkedIn ↗</a>
+          <a href="https://github.com/Saathvik0909" target="_blank" class="social-chip">GitHub ↗</a>
+          <a href="https://saathvikvarma.github.io/" target="_blank" class="social-chip">Website ↗</a>
+        </div>
+      </div>
+      <div class="about-text">
+        <h2>Building intelligent systems,<br><span class="accent">one commit at a time.</span></h2>
+        <p>I'm a B.Tech Computer Science student at <strong>CRRao AIMSCS, Hyderabad</strong> (CGPA: 8.1), passionate about the intersection of AI, cryptography, and full-stack development.</p>
+        <p>Currently researching <strong>GANs and Cryptography</strong> at the University of Hyderabad under Dr. Odelu Vanga, while building projects that push the boundary between research and real-world application.</p>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects Shipped</span></div>
+          <div class="stat"><span class="stat-num">2</span><span class="stat-label">Internships</span></div>
+          <div class="stat"><span class="stat-num">3</span><span class="stat-label">Certifications</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label"><span class="mono">03 /</span> Skills</div>
+    <h2 class="section-title">Technical Arsenal</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">&#60;/&#62;</div>
+        <h3>Languages</h3>
+        <div class="skill-tags">
+          <span>Java</span><span>Python</span><span>C</span><span>R</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">&#127760;</div>
+        <h3>Frontend</h3>
+        <div class="skill-tags">
+          <span>HTML</span><span>CSS</span><span>React.js</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">&#9881;</div>
+        <h3>Backend</h3>
+        <div class="skill-tags">
+          <span>Node.js</span><span>SQL</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">&#129504;</div>
+        <h3>AI / ML</h3>
+        <div class="skill-tags">
+          <span>PyTorch</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>ggplot2</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">&#128295;</div>
+        <h3>Tools</h3>
+        <div class="skill-tags">
+          <span>Git</span><span>VS Code</span><span>PyCharm</span><span>Google Colab</span><span>Anaconda</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label"><span class="mono">04 /</span> Projects</div>
+    <h2 class="section-title">Selected Work</h2>
+    <div class="projects-list">
+
+      <div class="project-card">
+        <div class="project-meta">
+          <span class="project-num mono">01</span>
+          <span class="project-date mono">March 2026</span>
+        </div>
+        <div class="project-body">
+          <h3>Video-to-Text Similarity Evaluator</h3>
+          <p>A system that retrieves transcript and semantic information from a video, then matches reference text against the transcript and visual context to produce a similarity score.</p>
+          <div class="project-stack">
+            <span>Python</span><span>React</span>
+          </div>
+        </div>
+        <div class="project-arrow">&#8599;</div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-meta">
+          <span class="project-num mono">02</span>
+          <span class="project-date mono">Feb 2025</span>
+        </div>
+        <div class="project-body">
+          <h3>Club Management System</h3>
+          <p>A full-stack application with login and registration pages backed by SQL, enabling users to create and join clubs through a structured Java interface.</p>
+          <div class="project-stack">
+            <span>Java</span><span>SQL</span><span>AWT/Swing</span>
+          </div>
+        </div>
+        <div class="project-arrow">&#8599;</div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-meta">
+          <span class="project-num mono">03</span>
+          <span class="project-date mono">April 2026</span>
+        </div>
+        <div class="project-body">
+          <h3>Video-Analysing RAG Chatbot</h3>
+          <p>A locally running RAG chatbot that analyses video content and answers related questions, powered by a self-hosted DeepSeek R1 model — no external API keys needed.</p>
+          <div class="project-stack">
+            <span>Python</span><span>DeepSeek R1</span><span>RAG</span>
+          </div>
+        </div>
+        <div class="project-arrow">&#8599;</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-label"><span class="mono">05 /</span> Experience</div>
+    <h2 class="section-title">Timeline</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="tl-header">
+            <h3>I-SURE Research Internship</h3>
+            <span class="tl-date mono">Ongoing</span>
+          </div>
+          <p class="tl-org">School of Computer Science, University of Hyderabad</p>
+          <p>Conducting research on GANs and Cryptography under the mentorship of Dr. Odelu Vanga.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="tl-header">
+            <h3>Data Science Intern</h3>
+            <span class="tl-date mono">May 2026</span>
+          </div>
+          <p class="tl-org">Cognifyz IT Solutions Pvt. Ltd.</p>
+          <p>Strengthened Python, data manipulation, and statistical skills through hands-on project work.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="tl-header">
+            <h3>Research — HPC & Cryptography</h3>
+            <span class="tl-date mono">April 2025</span>
+          </div>
+          <p class="tl-org">Under Prof. Venu Malla</p>
+          <p>Explored high-performance computing applications in cryptographic systems.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="tl-header">
+            <h3>Data Science Internship</h3>
+            <span class="tl-date mono">April 2026</span>
+          </div>
+          <p class="tl-org">Unified Mentor</p>
+          <p>Completed a structured data science program with practical project deliverables.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Certifications -->
+    <div class="certs-wrap">
+      <h3 class="certs-heading">Certifications & Achievements</h3>
+      <div class="certs-grid">
+        <div class="cert-card">
+          <span class="cert-icon">&#127942;</span>
+          <div>
+            <p class="cert-title">AI & Machine Learning — 24-Week Program</p>
+            <p class="cert-org">IIIT Hyderabad · April 2025</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <span class="cert-icon">&#127942;</span>
+          <div>
+            <p class="cert-title">Generative AI Essentials</p>
+            <p class="cert-org">Google & Coursera · Nov 2024</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <span class="cert-icon">&#127942;</span>
+          <div>
+            <p class="cert-title">Quantum Fundamentals Program</p>
+            <p class="cert-org">Amaravati Quantum Valley · May 2026</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <span class="cert-icon">&#127881;</span>
+          <div>
+            <p class="cert-title">Finalist — Udbhav 2026 Hackathon</p>
+            <p class="cert-org">March 2026</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label"><span class="mono">06 /</span> Contact</div>
+    <div class="contact-inner">
+      <h2 class="contact-heading">Let's build<br><span class="accent">something together.</span></h2>
+      <p class="contact-sub">Open to research collaborations, internships, and interesting projects.</p>
+      <a href="mailto:saathvik2005@gmail.com" class="contact-email">saathvik2005@gmail.com ↗</a>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/saathvik-varma-942064319/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Saathvik0909" target="_blank">GitHub</a>
+        <a href="https://saathvikvarma.github.io/" target="_blank">Website</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="mono">Saathvik Varma Mandapati · 2026</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
